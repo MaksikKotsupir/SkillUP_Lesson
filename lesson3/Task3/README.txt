@@ -1,0 +1,1 @@
+I create a simple table using colspan and rowspan.

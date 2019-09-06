@@ -1,0 +1,1 @@
+I create a simple site, where I use float.
