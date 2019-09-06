@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+p{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container-fluid{
+    padding:0px;
+}
+.navbar_logo , .navbar_menu {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.h-but:hover{
+    color:#10c9c3 !important;
+}
+.m_contact_info_title{
+    font-weight: 600 !important;
+    margin-bottom:50px;
+}
+.title_form,.text_form{
+    padding-left:0px !important;
+    padding-right:0px !important;
+}
+.m_portfolio__icon{
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+.m_portfolio_icon__text{
+    margin-left: 10px;
+    color:white;
+}
+.m_portfolio__photo{
+    background-color:#838383;
+}
+.m_portfolio__description{
+    margin-top:140px;
+    margin-left:100px;
+}
+.m_portfolio_subtitle1, .m_portfolio_subtitle2{
+    margin-bottom: 20px;
+}
+.m_portfolio_signature{
+    margin-bottom: 140px;
+}
+.module_project_text{
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+.but-send:hover{
+    background-color: white;
+    color:#10c9c3;
+}
+.but-text{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.but-send{
+    margin-top:30px;
+    border:2px solid #10c9c3;
+    background-color: #10c9c3;
+    color:white;
+    border-radius: 0px;
+}
+.module_footer{
+    display: flex;
+    justify-content: center;
+    margin-top:100px; 
+    background-color:#141414;
+}
+ul{
+    list-style-type: none;
+}
+.module_footer_content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.m_footer_title{
+    font-weight: 600;
+}
+.m_footer_title , .m_footer_subtitle{
+    color:white;
+}
+.m_footer_contact_mail , .m_footer_contact_number{
+    margin:0;
+    color:white;
+}
+.m_footer_menu_header a , .m_footer_menu_news a , .m_footer_menu_social a{
+    color:white;
+}
+.module_short_article{
+    background-color: #3e3e3e;
+}
+.m_short{
+    margin-top:123px;
+    margin-bottom: 100px;
+    color:white;
+}
+.m_short_article__title{
+     margin-bottom: 20px;
+}
+.m_portfolio__icon{
+    background-color:#10c9c3;
+}

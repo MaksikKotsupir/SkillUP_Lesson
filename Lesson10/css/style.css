@@ -1,0 +1,174 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:100";
+p, h1, ul {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: #ffffff;
+  font-style: "Roboto", sans-serif; }
+
+.title_m {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 40px;
+  color: #0e1a35; }
+.info_cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+.info_card1 {
+  width: 340px;
+  height: 430px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  /*margin-left: 50px;*/ }
+  .info_card1 .article {
+    padding-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    text-align: center; }
+  .info_card1 .sup_inf {
+    font-size: 30px;
+    color: #0e1a35;
+    font-weight: 600; }
+  .info_card1 .price_b {
+    font-size: 50px;
+    color: #0e1a35;
+    font-weight: 600; }
+  .info_card1 .sub_inf {
+    font-size: 20px;
+    color: #8492af; }
+  .info_card1 li {
+    list-style-type: none;
+    font-size: 15px;
+    color: #8492af; }
+    .info_card1 li img {
+      vertical-align: baseline; }
+    .info_card1 li .our_cond {
+      bottom: 7px;
+      left: 15px;
+      position: relative; }
+  .info_card1 .price_txt {
+    padding-bottom: 70px;
+    padding-top: 20px; }
+
+.info_card2 {
+  width: 340px;
+  height: 430px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px; }
+  .info_card2 .article {
+    padding-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    text-align: center; }
+  .info_card2 .sup_inf {
+    font-size: 30px;
+    color: #0e1a35;
+    font-weight: 600; }
+  .info_card2 .price_b {
+    font-size: 50px;
+    color: #0e1a35;
+    font-weight: 600; }
+  .info_card2 .sub_inf {
+    font-size: 20px;
+    color: #8492af; }
+  .info_card2 .price_txt {
+    padding-bottom: 20px; }
+  .info_card2 li {
+    list-style-type: none;
+    font-size: 15px;
+    color: #8492af; }
+    .info_card2 li img {
+      vertical-align: baseline; }
+    .info_card2 li .our_cond {
+      bottom: 7px;
+      left: 15px;
+      position: relative; }
+  .info_card2 .price_txt {
+    padding-bottom: 70px;
+    padding-top: 20px; }
+
+.info_card3 {
+  width: 340px;
+  height: 430px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  /*margin-right: 50px;*/ }
+  .info_card3 .article {
+    padding-bottom: 50px;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    text-align: center; }
+  .info_card3 .sup_inf {
+    font-size: 30px;
+    color: #0e1a35;
+    font-weight: 600; }
+  .info_card3 .price_b {
+    font-size: 50px;
+    color: #0e1a35;
+    font-weight: 600; }
+  .info_card3 .sub_inf {
+    font-size: 20px;
+    color: #8492af; }
+  .info_card3 .price_txt {
+    padding-bottom: 20px; }
+  .info_card3 li {
+    list-style-type: none;
+    font-size: 15px;
+    color: #8492af; }
+    .info_card3 li img {
+      vertical-align: baseline; }
+    .info_card3 li .our_cond {
+      bottom: 7px;
+      left: 15px;
+      position: relative; }
+  .info_card3 .price_txt {
+    padding-bottom: 70px;
+    padding-top: 20px; }
+
+.info_cards {
+  display: flex;
+  justify-content: space-around; }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .footer .end_text {
+    text-align: center;
+    margin-top: 90px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif; }
+  .footer .f_button {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 50px 10px 50px;
+    border-radius: 50px;
+    background-color: #5584ff;
+    border: 2px solid #5584ff;
+    color: #ffffff;
+    font-size: 20px; }
+  .footer .f_button:hover {
+    background-color: #ffffff;
+    border: 2px solid #5584ff;
+    color: black; }

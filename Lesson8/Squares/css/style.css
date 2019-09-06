@@ -1,0 +1,38 @@
+.container{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+.box1{
+	width: 200px;
+	height: 200px;
+	background-color: green;
+}
+.box2{
+	width: 90px;
+	height: 90px;
+	background-color: red;
+}
+.box3{
+	width: 30px;
+	height: 30px;
+	background-color: yellow;
+}
+
+#box_1{
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+#box_2{
+	display: flex;
+	align-items: flex-end;
+}
+#box_2_3{
+	display: flex;
+	justify-content: flex-end;
+}
+#box_3{
+	display: flex;
+	justify-content: space-between;
+}
