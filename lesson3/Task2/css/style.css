@@ -1,0 +1,67 @@
+h1,h3{
+	text-align: center;
+	margin: 0px;
+}
+h1{
+	background: #FFCC00;
+}
+body{
+	background: #FFFF99;
+	padding: 0px;
+	margin: 0px;
+}
+h3{
+	margin-top: 8px;
+}
+#IDname{        
+  margin-bottom: 10px;
+}
+#IDradio{
+  margin-bottom: 10px;
+}
+#inputdiv{
+	height: 130px;
+  display: flex;
+  justify-content: center;
+}
+.right{
+	float: right;
+}
+.radiodiv{
+ display: flex;
+  justify-content: center;
+}
+.rad{
+  padding-right: 40px;
+ }
+.text_rad{
+  margin-left:-165px;
+}
+.optiondiv{
+  display: flex;
+  justify-content: center;
+}
+.text_opt{
+	margin-left:-120px;
+}
+.opt_title{
+	padding-right: 20px;
+}
+.check_box{
+display: flex;
+justify-content: center;
+margin-left:-200px;
+}
+.form_check{
+margin-top: 15px;
+margin-left:10px;
+}
+.check_box_text{
+padding-right: 10px;
+}
+.button{
+display: flex;
+justify-content: center;
+margin-top: 8px;
+margin-left:-18px;
+}

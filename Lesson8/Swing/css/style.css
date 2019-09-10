@@ -1,0 +1,44 @@
+body{
+	display: flex;
+	justify-content: center;
+}
+.origin { 
+  background: red;
+  border: 2px solid #1d1f20;
+  border-radius: 50%;
+  height: 10px;
+  margin-left: -7px;
+  margin-top: -7px;
+  position: absolute;
+  width: 10px;
+}
+.box {
+  animation: rotate 3s infinite alternate ease;
+  background: linear-gradient(to top right, #E5C450, #8D7888, #3830C3);
+  height: 120px;
+  margin: 0 auto;
+  width: 220px;
+  border: 2px solid #1d1f20; 
+ }
+.box__wrapper {
+  background: grey;
+  float: left;
+  height: 200px;
+  margin: 5px;
+  text-align: center;
+  width: 410px;
+  margin-top: 10%;
+  border: 2px solid #1d1f20; 
+}
+  
+.box--origin-top { 
+  transform-origin: top;
+} 
+.origin {
+  left: 110px;
+}
+  
+@keyframes rotate {
+  from { transform: rotate(-30deg) ; }
+  to { transform: rotate(30deg); }
+}

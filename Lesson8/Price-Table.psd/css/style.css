@@ -1,0 +1,180 @@
+*{
+	margin: 0px;
+	padding: 0px; 
+}
+.container_1{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container_2{
+	width: 83%;
+	height: 70%;
+	background: #313131;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.card{
+	width: 270px;
+	height: 400px;
+	background-color: white;
+	border-radius: 7px;
+	border: 1px solid #313131;
+}
+.card__header{
+	height: 60px;
+	border-radius: 7px 7px 0 0;
+	background-color: #43A1DB;
+	display: flex;
+	flex-direction: row;
+}
+.card__header_title{
+	width: 170px;
+	height: 60px;
+}
+.title__level{
+	color: #F5F9FC;
+	font-size: 14px;
+	font-weight: 500;
+	padding-left: 25px;
+	padding-top: 10px;
+}
+.title__name{
+	color: #F5F9FC;
+	font-size: 20px;
+	font-weight: 500;
+	padding-left: 25px;
+}
+.card__header_price{
+	width: 100px;
+	height: 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.price_{
+	font-size: 35px;
+	font-weight: 900;
+	color: #F5F9FC;
+}
+.price__{
+	margin-top: 15px;
+	font-size: 15px;
+	color: #F5F9FC;
+	margin-right: 15px;
+}
+.body_text>p{
+	color: #C8C8C8;
+	text-align: center;
+	margin: 12px 0;
+	font-size: 15px; 
+}
+.button{
+	display: flex;
+	justify-content: center;
+}
+button{
+	border: 0;
+	border-radius: 4px;
+	background: #59B13C;
+	color: white;
+	font-weight: 900;
+	font-size: 13px;
+	height: 35px;
+	width: 180px;
+}
+.body_text{
+	width: 270px;
+	height: 280px;
+}
+#bold{
+	font-size: 14px;
+	color: black;
+	margin-top: -7px;
+} 
+#bold2{
+	font-size: 14px;
+	color: black;
+	margin-top: 2px;
+}
+@media (max-width: 1024px){
+	.card{
+		width: 240px;
+		height: 350px;
+	}
+	.body_text{
+		width: 240px;
+		height: 230px;
+	}
+	.body_text>p{
+		margin: 8px 0px;
+	}
+}
+@media (max-width: 768px){
+	.card{
+		width: 190px;
+		height: 310px;
+	}
+	.body_text{
+		width: 190px;
+		height: 215px;
+	}
+	.body_text>p{
+		margin: 7px 0px;
+		font-size: 13px;
+	}
+	button{
+	height: 25px;
+	width: 110px;
+	}
+	#bold{
+		font-size: 13px;
+	}
+	#bold2{
+		font-size: 13px;
+		margin-top: -4px;
+	}
+	.price_{
+		font-size: 25px;
+	}
+	.price__{
+		font-size: 14px;
+		margin-top: 5px;
+	}
+	.card__header_title{
+	width: 120px;
+	height: 50px;
+	}
+	.card__header{
+		height: 50px;
+	}
+	.title__level{
+		padding-left: 15px;
+		padding-top: 5px;
+		font-size: 12px;
+	}	
+	.title__name{
+		padding-left: 15px;
+		font-size: 17px;
+	}
+} 
+@media (max-width: 874px){
+	.container_2{
+		flex-wrap: wrap;
+		height: 790px;
+	}
+	.card{
+		margin-top: 20px;
+	}
+}
+@media (max-width: 462px){
+	.container_2{
+		height: 1100px;
+	}
+}
+

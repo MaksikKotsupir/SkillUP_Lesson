@@ -1,0 +1,203 @@
+@import "reser";
+@import 'https://fonts.googleapis.com/css?family=Roboto:100';
+$block-color:#ffffff;
+$b-color:#ffffff;
+$text-style:'Roboto', sans-serif;
+$t-size:25px;
+$m-text-color:#0e1a35;
+$all-text-color:#8492af;
+$box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+$radius:30px;
+$cards-width:340px;
+$cards-height:430px;
+
+@mixin block-size {
+    width:$cards-width;
+    height: $cards-height;
+    background-color: $block-color;
+    box-shadow: $box-shadow;
+}
+@mixin ul {
+    list-style-type: none;
+    font-size: 15px;
+    color: $all-text-color;
+    
+}
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+@mixin article_size{
+    padding-bottom:50px;
+    font-family: $text-style;
+    font-size: $t-size;
+    text-align: center;
+}
+body{
+   background-color: $b-color;
+   font-style: $text-style;
+}
+.title_m{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-family: $text-style;
+    font-weight: 100;
+    font-size: 40px;
+    color:$m-text-color;
+}
+.info_card1{
+    @include block-size;
+    @include flex;
+    margin-left: 50px;
+       .article{
+           @include article_size;
+       }
+       .sup_inf{
+           font-size: 30px;
+           color:$m-text-color;
+           font-weight: 600;
+       }
+       .price_b{
+           font-size: 50px;
+           color:$m-text-color;
+           font-weight: 600;
+       }
+       .sub_inf{
+           font-size: 20px;  
+           color:$all-text-color; 
+       }
+       li{
+           @include ul;
+           img{
+            vertical-align:baseline;
+           }
+           .our_cond{
+           bottom:7px;
+           left:15px;
+           position: relative;
+           }
+       }
+       .price_txt{
+        padding-bottom: 70px;
+        padding-top: 20px;
+
+    }
+
+}
+.info_card2{
+    @include block-size;
+    @include flex;
+    .article{
+        @include article_size;
+    }
+    .sup_inf{
+        font-size: 30px;
+        color:$m-text-color;
+        font-weight: 600;
+    }
+    .price_b{
+        font-size: 50px;
+        color:$m-text-color;
+        font-weight: 600;
+    }
+    .sub_inf{
+        font-size: 20px; 
+        color:$all-text-color;   
+    }
+    .price_txt{
+        padding-bottom: 20px;
+        
+    }
+    li{
+        @include ul;
+        img{
+            vertical-align:baseline;
+           }
+           .our_cond{
+           bottom:7px;
+           left:15px;
+           position: relative;
+           }
+    }
+    .price_txt{
+        padding-bottom: 70px;
+        padding-top: 20px;
+
+    }
+}
+.info_card3{
+    @include block-size;
+    @include flex;
+    margin-right: 50px;
+    .article{
+        @include article_size;
+    }
+    .sup_inf{
+        font-size: 30px;
+        color:$m-text-color;
+        font-weight: 600;
+    }
+    .price_b{
+        font-size: 50px;
+        color:$m-text-color;
+        font-weight: 600;
+    }
+    .sub_inf{
+        font-size: 20px;   
+        color:$all-text-color; 
+    }
+    .price_txt{
+        padding-bottom: 20px;
+    }
+    li{
+        @include ul;
+        img{
+            vertical-align:baseline;
+           }
+           .our_cond{
+           bottom:7px;
+           left:15px;
+           position: relative;
+           }
+    }
+    .price_txt{
+        padding-bottom: 70px;
+        padding-top: 20px;
+
+    }
+}
+.info_cards{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+.end_text{
+    text-align: center;
+    margin-top:90px;
+    font-size: 20px;
+    font-family: $text-style;
+}
+.f_button{
+    margin-top:50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 50px 10px 50px;
+    border-radius: 50px;
+    background-color: #5584ff;
+    border: 2px solid #5584ff;
+    color: $b-color;
+    font-size: 20px;
+}
+.f_button:hover{
+    background-color: #ffffff;
+    border: 2px solid #5584ff;
+    color:black;
+}
+}
