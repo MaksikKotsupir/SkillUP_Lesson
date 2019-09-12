@@ -1,0 +1,1 @@
+Used the switch construct to write down the conditions

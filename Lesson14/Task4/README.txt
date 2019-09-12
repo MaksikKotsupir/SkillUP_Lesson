@@ -1,0 +1,1 @@
+displayed to the console using the loop "while" squares of numbers from 1 to 9

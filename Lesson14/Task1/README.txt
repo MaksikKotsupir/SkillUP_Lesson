@@ -1,0 +1,1 @@
+wrote an if..else statement that takes a value from prompt and outputs it to the console
