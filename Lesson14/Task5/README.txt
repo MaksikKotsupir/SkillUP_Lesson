@@ -1,0 +1,1 @@
+created a function that outputs a random number within min to max and shows whether the number is even or not

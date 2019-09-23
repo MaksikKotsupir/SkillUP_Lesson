@@ -1,0 +1,1 @@
+created a loop that translates each word of the array in uppercase and joins all the words into a string
