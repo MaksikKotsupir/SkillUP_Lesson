@@ -1,0 +1,35 @@
+#inputs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+#buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#buttons>button{
+    height: 45px;
+    width: 110px;
+    margin: 30px 15px 15px;     
+    font-size: 23px;
+    font-weight: bold;
+    border: 3px solid #000;
+    border-radius: 10%;
+    background-color: transparent;
+    color: #000;
+}
+input{
+    text-align: center;
+    width: 55px;
+    height: 55px;
+    font-size: 35px;
+    padding: 4px;
+    background: #000;
+    color: #fff;
+    border: 0px;
+}
+span{
+    font-size: 30px;
+}
