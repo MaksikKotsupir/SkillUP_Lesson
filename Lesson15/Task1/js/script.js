@@ -8,7 +8,7 @@ function Adding() {
     if (input === null) {
         alert('Clear');
     }else{
-        for(i=0;i<100;++i){
+        for(i=0;i<99;++i){
             input = prompt('Input number!');
             if (input === null) {
                 console.log('Number of numbers in array:', arr.length);
